@@ -144,7 +144,5 @@ def animate(i):
 nim = anim.FuncAnimation(fig, animate, init_func=init, frames=totalFrames, interval=1, blit=True)
 
 #anim.save('blipTest.mp4', writer='ffmpeg')
-    #reportLocationsDates = reportLocationsDates[(reportLocationsDates['REPORT_DATE'] > '2000-6-1') & (reportLocationsDates['date'] <= '2000-6-10')]
-#reportLocations.plot(x='Longitude', y='Latitude', ax=mainAx, kind='scatter')
 
 plt.show()
